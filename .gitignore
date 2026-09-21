@@ -1,0 +1,29 @@
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
+# macOS et éditeurs
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Laravel (app/) — complété par app/.gitignore au M0
+app/vendor/
+app/node_modules/
+app/public/build/
+app/public/hot
+
+# Unité ai
+ai/.venv-*/
+ai/**/__pycache__/
+ai/.pytest_cache/
+ai/.ruff_cache/
+
+# Poids de modèles : jamais dans Git (ADR-005)
+*.safetensors
+*.gguf
+
+# État d'exécution local (pid, journaux de make ai)
+.run/
