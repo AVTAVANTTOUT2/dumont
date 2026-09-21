@@ -1,6 +1,6 @@
 # Structure du dépôt
 
-Un monorepo, trois unités, un propriétaire par répertoire. Cette page décrit l'arborescence **cible** : aujourd'hui seuls la documentation et `.github/` existent, le reste arrive au jalon indiqué.
+Un monorepo, trois unités, un propriétaire par répertoire. Cette page décrit l'arborescence **cible** : le squelette Laravel est dans `app/` depuis le M0 ; le reste arrive au jalon indiqué.
 
 ## Arborescence
 
