@@ -1,0 +1,18 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+    - vendor/nesbot/carbon/extension.neon
+
+parameters:
+    paths:
+        - app/
+        - bootstrap/app.php
+        - bootstrap/providers.php
+        - config/
+        - database/
+        - routes/
+
+    excludePaths:
+        - bootstrap/cache
+
+    # Pest's $this helpers are not visible to PHPStan; tests run via vendor/bin/pest.
+    level: 4
