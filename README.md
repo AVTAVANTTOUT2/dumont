@@ -2,7 +2,7 @@
 
 Assistant vocal **Jarvis** porté au bras. On lui parle depuis le téléphone, il répond à voix haute, affiche ce qui compte et exécute les commandes. Le téléphone sert de brassard (*gauntlet*) grâce à une application web installable (PWA). Tout le calcul tourne sur un Mac Apple Silicon : modèle de langage local, transcription et voix de [jarvis-voice](https://github.com/AVTAVANTTOUT2/jarvis-voice).
 
-> **État au 21 septembre 2026 :** documentation posée, aucune ligne de code. Prochaine étape : le jalon **M0 — Socle**. Voir la [feuille de route](docs/roadmap.md).
+> **État au 21 septembre 2026 :** documentation posée, squelette Laravel 13 dans `app/`. Le jalon **M0 — Socle** continue (Docker, unité ai, HTTPS, CI). Voir la [feuille de route](docs/roadmap.md).
 
 ## En une image
 
